@@ -1,0 +1,153 @@
+.bride{
+    padding: 150px 0 100px ;
+}
+.bride-img{
+    max-width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+}
+.bride-img img{
+    width: 100%;
+}
+.bride-content{
+    padding: 35px 20px;
+}
+.bride-content h3{
+    color: #43121d;
+    margin: 0px 0px 10px;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.bride-content p{
+    font-weight: 600;
+    color: #555555; 
+    padding: 0 0 13px;
+    line-height: 1.5;
+    
+    
+}
+.bride-content .btu{
+    padding: 8px 40px;
+}
+.small-desc{
+    padding: 20px 0 100px;
+}
+.small-desc-content{
+    padding: 80px 0;
+}
+.small-desc h3{
+    color: #43121d;
+    margin: 0px 0px 5px;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.small-desc p{
+    font-weight: 600;
+    color: #555555; 
+     padding: 0 0 13px;
+    line-height:2;
+    margin: 0;
+    
+}
+.small-desc ul{
+list-style: none;
+padding: 0;
+}
+.small-desc ul li{
+    position: relative;
+    padding: 10px 0 0px 30px;
+}
+.small-desc ul li i{
+color: #a82d49;
+position:absolute;
+left: 0;
+top: 14px;
+font-weight: bold;
+}
+.small-desc .btu{
+    padding: 8px 40px;
+}
+.small-desc-img{
+max-width: 100%;
+}
+.small-desc-img img{
+    width: 100%;
+}
+.watching-vedio{
+    padding: 100px 0 80px;
+    background-image: url(../../assets/1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+.watching-vedio h2{
+    color: #a82d49;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.watching-vedio p{
+    font-weight: 600;
+    color: #555555; 
+    padding: 0 0 13px;
+    line-height:2;
+    margin: 0 60px 30px;
+}
+.watching-vedio .btu{
+    background-color: transparent !important;
+    color: #43121d !important;
+    border: 0 !important;
+}
+@media (max-width : 767px){
+    .bride{
+        padding: 180px 0 0 ;
+    }
+    .small-desc{
+        padding: 0 0 100px;
+    }
+   
+    .small-desc-content{
+        padding: 70px 0;
+    }
+    .small-desc-content h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .small-desc ul {
+        padding: 20px 0;
+    }
+    .bride-content h3 , .small-desc h3{
+        font-size: 19px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .bride-content p , .small-desc p , .watching-vedio p{
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .watching-vedio h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        line-height: 1.5;
+    }
+    .watching-vedio p {
+        margin: 0 0 10px;
+        line-height: 1.8;
+    }
+}
+@media (min-width : 600px) and (max-width :767px ){
+    .small-desc{
+        padding: 80px 0 100px;
+    }
+    .watching-vedio{
+        padding: 150px 0;
+    }
+}

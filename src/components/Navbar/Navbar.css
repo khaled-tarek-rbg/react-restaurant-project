@@ -1,0 +1,61 @@
+.navbar {
+background-color: #fff !important;
+}
+.navbar.active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4) !important;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #A82D49 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btu{
+    background-color:  #a82d49 !important;
+    transition: background-color.3s;
+    -webkit-transition: background-color.3s;
+    -moz-transition: background-color.3s;
+    -ms-transition: background-color.3s;
+    -o-transition: background-color.3s;
+    color: #fff !important;
+    border: 3px solid #A82D49 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    font-weight: 500;
+    
+}
+.btu:hover{
+    background-color:  transparent !important;
+    color: #A82D49 !important;
+}
+
+.navbar-toggler{
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-toggler i{
+    color: #A82D49;
+    font-size: 30px;
+}
+
+
+button[type = "button"]:focus{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+@media (max-width:280px){
+    .navbar-toggler i {
+        font-size: 20px;
+    }
+    .navbar-brand img{
+        width: 80%;
+    }
+}
